@@ -1,0 +1,4 @@
+ROLE_PERIOD,FLOW_KIND,start_date,end_date,records,total_on_stream_hours,total_oil,total_water_injected
+1,injection,2007-09-01,2016-04-10,3145,57856.52806,0.0,14089406.48946984
+2,production,2016-04-11,2016-09-17,160,2973.32502,41160.68,0.0
+3,injection,2016-09-18,2016-09-18,1,0.0,0.0,0.0

@@ -1,0 +1,9 @@
+check,status
+Raw workbook is accessible,PASS
+Daily well-date keys are unique,PASS
+Monthly well-year-month keys are unique,PASS
+Daily and monthly well-month keys align,PASS
+All jointly observed monthly totals reconcile,PASS
+Active production rows have oil values,PASS
+Active injection rows have WI values,PASS
+F-5 has no same-day dual FLOW_KIND,PASS
