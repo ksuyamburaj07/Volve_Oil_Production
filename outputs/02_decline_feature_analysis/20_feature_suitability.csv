@@ -1,0 +1,17 @@
+candidate_feature,available_at_forecast_time,modelling_status
+Well identity,Yes,Candidate
+Production age at month t,Yes,Candidate
+Current oil volume,Yes,Candidate
+Current oil production intensity,Yes,Candidate
+Current water cut,Yes,Candidate
+Current gas-oil ratio,Yes,Candidate
+Current on-stream hours,Yes,Candidate
+Lagged oil volume,Yes,Candidate
+Lagged oil production intensity,Yes,Candidate
+Lagged water cut,Yes,Candidate
+Lagged gas-oil ratio,Yes,Candidate
+Lagged on-stream hours,Yes,Candidate
+Historical rolling production,Yes,Candidate
+Target-month on-stream hours,No,Exclude - future leakage
+Target-month water cut,No,Exclude - future leakage
+Target-month gas-oil ratio,No,Exclude - future leakage

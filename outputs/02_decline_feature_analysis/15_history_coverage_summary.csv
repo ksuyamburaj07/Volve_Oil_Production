@@ -1,0 +1,5 @@
+feature_group,complete_rows,rows_lost,retained_pct
+Current-month core,300,0,100.0
+Core + 1-month oil lag,294,6,98.0
+Core + oil lags 1-3,282,18,94.0
+Core + oil lags + 3-month rolling oil,282,18,94.0

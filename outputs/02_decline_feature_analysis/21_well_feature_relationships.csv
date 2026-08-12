@@ -1,0 +1,67 @@
+well,feature,valid_observations,spearman_correlation
+15/9-F-1 C,oil_volume,24,0.5383
+15/9-F-1 C,oil_volume_lag_1,23,0.337
+15/9-F-1 C,oil_volume_lag_2,22,0.5212
+15/9-F-1 C,oil_volume_lag_3,21,0.613
+15/9-F-1 C,oil_volume_recent_mean_3,22,0.511
+15/9-F-1 C,oil_volume_rolling_mean_3,21,0.5013
+15/9-F-1 C,production_age_months,24,-0.7383
+15/9-F-1 C,oil_per_on_stream_hour,24,0.6078
+15/9-F-1 C,water_cut_pct,24,-0.7783
+15/9-F-1 C,gas_oil_ratio,24,-0.3696
+15/9-F-1 C,on_stream_hours,24,0.1557
+15/9-F-11,oil_volume,38,0.672
+15/9-F-11,oil_volume_lag_1,37,0.3957
+15/9-F-11,oil_volume_lag_2,36,0.0873
+15/9-F-11,oil_volume_lag_3,35,-0.0356
+15/9-F-11,oil_volume_recent_mean_3,36,0.4324
+15/9-F-11,oil_volume_rolling_mean_3,35,0.258
+15/9-F-11,production_age_months,38,-0.3358
+15/9-F-11,oil_per_on_stream_hour,38,0.7818
+15/9-F-11,water_cut_pct,38,-0.3597
+15/9-F-11,gas_oil_ratio,38,-0.6013
+15/9-F-11,on_stream_hours,38,-0.1411
+15/9-F-12,oil_volume,103,0.9224
+15/9-F-12,oil_volume_lag_1,102,0.8781
+15/9-F-12,oil_volume_lag_2,101,0.8734
+15/9-F-12,oil_volume_lag_3,100,0.8434
+15/9-F-12,oil_volume_recent_mean_3,101,0.9151
+15/9-F-12,oil_volume_rolling_mean_3,100,0.886
+15/9-F-12,production_age_months,103,-0.8682
+15/9-F-12,oil_per_on_stream_hour,102,0.9612
+15/9-F-12,water_cut_pct,102,-0.8751
+15/9-F-12,gas_oil_ratio,102,-0.6613
+15/9-F-12,on_stream_hours,103,0.0763
+15/9-F-14,oil_volume,98,0.9454
+15/9-F-14,oil_volume_lag_1,97,0.9096
+15/9-F-14,oil_volume_lag_2,96,0.9201
+15/9-F-14,oil_volume_lag_3,95,0.9092
+15/9-F-14,oil_volume_recent_mean_3,96,0.9514
+15/9-F-14,oil_volume_rolling_mean_3,95,0.9435
+15/9-F-14,production_age_months,98,-0.9642
+15/9-F-14,oil_per_on_stream_hour,97,0.9647
+15/9-F-14,water_cut_pct,97,-0.9678
+15/9-F-14,gas_oil_ratio,97,-0.5872
+15/9-F-14,on_stream_hours,98,-0.1292
+15/9-F-15 D,oil_volume,32,0.4438
+15/9-F-15 D,oil_volume_lag_1,31,0.3259
+15/9-F-15 D,oil_volume_lag_2,30,0.2633
+15/9-F-15 D,oil_volume_lag_3,29,0.2711
+15/9-F-15 D,oil_volume_recent_mean_3,30,0.3546
+15/9-F-15 D,oil_volume_rolling_mean_3,29,0.2686
+15/9-F-15 D,production_age_months,32,-0.6223
+15/9-F-15 D,oil_per_on_stream_hour,30,0.7487
+15/9-F-15 D,water_cut_pct,30,-0.5399
+15/9-F-15 D,gas_oil_ratio,30,-0.3073
+15/9-F-15 D,on_stream_hours,32,-0.004
+15/9-F-5,oil_volume,5,
+15/9-F-5,oil_volume_lag_1,4,
+15/9-F-5,oil_volume_lag_2,3,
+15/9-F-5,oil_volume_lag_3,2,
+15/9-F-5,oil_volume_recent_mean_3,3,
+15/9-F-5,oil_volume_rolling_mean_3,2,
+15/9-F-5,production_age_months,5,
+15/9-F-5,oil_per_on_stream_hour,5,
+15/9-F-5,water_cut_pct,5,
+15/9-F-5,gas_oil_ratio,5,
+15/9-F-5,on_stream_hours,5,
