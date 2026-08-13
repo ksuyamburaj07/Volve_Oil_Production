@@ -1,0 +1,33 @@
+{
+    "forecasting_task": "Predict next-month oil production volume for the same producer well.",
+    "forecast_horizon": "one month ahead",
+    "selected_trainable_model": "Ridge Regression",
+    "ridge_alpha": 10.0,
+    "selected_feature_set": "Core",
+    "numeric_features": [
+        "oil_volume",
+        "production_age_months",
+        "oil_per_on_stream_hour",
+        "water_cut_pct",
+        "gas_oil_ratio",
+        "on_stream_hours",
+        "oil_volume_lag_1",
+        "oil_volume_lag_2",
+        "oil_volume_lag_3",
+        "oil_volume_recent_mean_3"
+    ],
+    "categorical_features": [
+        "NPD_WELL_BORE_NAME"
+    ],
+    "target": "target_next_month_oil_volume",
+    "development_observations": 215,
+    "development_end": "2015-03-01",
+    "final_holdout_start": "2015-04-01",
+    "final_holdout_end": "2016-08-01",
+    "final_holdout_observations": 80,
+    "final_holdout_best_observed_method": "Naive Persistence",
+    "ridge_holdout_negative_predictions": 12,
+    "post_holdout_retuning_performed": false,
+    "scikit_learn_version": "1.9.0",
+    "scipy_version": "1.18.0"
+}
