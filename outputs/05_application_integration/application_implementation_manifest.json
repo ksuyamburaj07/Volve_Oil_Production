@@ -1,0 +1,60 @@
+{
+    "project": "Volve Oil Production Data Science Project",
+    "implementation_stage": "Application integration complete",
+    "forecasting_configuration": {
+        "target": "Next-month monthly oil volume",
+        "forecast_horizon": "One month ahead",
+        "selected_machine_learning_model": "Ridge Regression",
+        "ridge_alpha": 10.0,
+        "benchmark": "Naive persistence",
+        "validation": "Temporal expanding-window development validation followed by one untouched final holdout",
+        "post_holdout_retuning": false
+    },
+    "frozen_final_holdout": {
+        "observations": 80,
+        "core_wells": 5,
+        "persistence_MAE": 1786.678625,
+        "persistence_RMSE": 2896.884714565588,
+        "persistence_WAPE_pct": 17.549219953034868,
+        "ridge_MAE": 3370.2773529067445,
+        "ridge_RMSE": 4577.993609641194,
+        "ridge_WAPE_pct": 33.10373658771038,
+        "ridge_negative_predictions": 12,
+        "observed_out_of_sample_conclusion": "Persistence achieved stronger final-holdout performance than the selected Ridge Regression model."
+    },
+    "application_artifacts": {
+        "historical_production": {
+            "file": "app_historical_production.csv",
+            "rows": 295
+        },
+        "forecast_comparison": {
+            "file": "app_forecast_comparison.csv",
+            "rows": 80
+        },
+        "well_monitoring": {
+            "file": "app_well_monitoring.csv",
+            "rows": 5
+        },
+        "metadata": {
+            "file": "app_metadata.json"
+        },
+        "limitations": {
+            "file": "app_limitations.csv",
+            "rows": 8
+        },
+        "serialized_model": {
+            "file": "ridge_next_month_oil_forecast_pipeline.joblib",
+            "source": "Notebook 03"
+        }
+    },
+    "analytical_boundaries": {
+        "new_model_training_in_notebook_05": false,
+        "new_hyperparameter_tuning_in_notebook_05": false,
+        "new_feature_selection_in_notebook_05": false,
+        "final_holdout_reopened_for_model_selection": false,
+        "negative_predictions_clipped": false,
+        "engineering_alarm_thresholds_created": false,
+        "causal_engineering_claims_created": false
+    },
+    "next_stage": "Streamlit application development"
+}

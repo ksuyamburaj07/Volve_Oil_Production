@@ -1,0 +1,70 @@
+{
+    "project": {
+        "project_name": "Volve Oil Production Data Science Project",
+        "case_study": "Volve Field",
+        "application_type": "Historical production analysis, forecasting and decision-support application"
+    },
+    "forecasting_task": {
+        "target": "Next-month monthly oil volume",
+        "forecast_horizon": "One month ahead",
+        "forecast_origin": "End of current producer-well month",
+        "model_scope": "Pooled multi-well forecasting with producer-well identity retained"
+    },
+    "selected_model": {
+        "algorithm": "Ridge Regression",
+        "ridge_alpha": 10.0,
+        "numeric_feature_count": 10,
+        "categorical_feature_count": 1,
+        "total_input_columns": 11,
+        "serialized_model": "ridge_next_month_oil_forecast_pipeline.joblib"
+    },
+    "benchmark": {
+        "approach": "Naive persistence",
+        "definition": "Current-month oil volume is used as the forecast for the following month.",
+        "final_observation": "Persistence was the strongest observed out-of-sample approach on the frozen final holdout."
+    },
+    "validation": {
+        "strategy": "Temporal validation",
+        "development_design": "Expanding-window validation within the development period",
+        "random_split_used": false,
+        "final_holdout_origin_start": "2015-04-01",
+        "final_holdout_origin_end": "2016-08-01",
+        "final_holdout_observations": 80,
+        "final_holdout_wells": 5,
+        "post_holdout_retuning": false
+    },
+    "final_holdout_results": {
+        "persistence": {
+            "MAE": 1786.678625,
+            "RMSE": 2896.884714565588,
+            "R2": 0.937874791953293,
+            "WAPE_pct": 17.549219953034868
+        },
+        "ridge_regression": {
+            "MAE": 3370.2773529067445,
+            "RMSE": 4577.993609641194,
+            "R2": 0.8448485652923775,
+            "WAPE_pct": 33.10373658771038,
+            "negative_predictions": 12
+        }
+    },
+    "application_scope": {
+        "core_producer_wells": [
+            "15/9-F-1 C",
+            "15/9-F-11",
+            "15/9-F-12",
+            "15/9-F-14",
+            "15/9-F-15 D"
+        ],
+        "historical_application_rows": 295,
+        "forecast_comparison_rows": 80,
+        "monitoring_summary_rows": 5,
+        "latest_monitoring_origin": "Latest available forecasting origin is determined separately for each well."
+    },
+    "provenance": {
+        "notebook_02": "Production decline analysis, forecasting features and modelling-ready dataset",
+        "notebook_03": "Predictive model development, temporal validation and frozen final holdout",
+        "notebook_04": "Operational production interpretation and dashboard-ready monitoring outputs",
+        "notebook_05": "Application integration, artifact validation and Streamlit readiness"
+    }
+}

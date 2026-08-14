@@ -1,0 +1,6 @@
+NPD_WELL_BORE_NAME,DATE,oil_volume,oil_volume_change_pct,recent_3_observation_mean_oil,recent_3_zero_observations,on_stream_hours,water_cut_pct,latest_production_state,recent_direction,ratio_measurement_state
+15/9-F-1 C,2016-03-01,2917.5,-38.162750130880895,3538.99,0,356.75833,82.13234740228522,Positive production at latest origin,Decline from previous month,Current ratio indicators available
+15/9-F-11,2016-08-01,14583.73,1.3823542497400074,14519.74,0,743.66667,85.75055068145365,Positive production at latest origin,Increase from previous month,Current ratio indicators available
+15/9-F-12,2016-08-01,1442.03,-68.19392918113203,3794.7200000000007,0,285.89167,88.35115763011575,Positive production at latest origin,Decline from previous month,Current ratio indicators available
+15/9-F-14,2016-08-01,0.0,-100.0,1467.2966666666669,1,0.0,,Zero production at latest origin,Decline from previous month,Current ratio indicators unavailable
+15/9-F-15 D,2016-08-01,0.0,-100.0,1430.8266666666666,1,0.0,,Zero production at latest origin,Decline from previous month,Current ratio indicators unavailable

@@ -1,0 +1,9 @@
+limitation_id,category,limitation,application_implication
+L01,Dataset,The monthly forecasting dataset contains a relatively limited number of valid producer-well forecasting observations.,Performance estimates should be interpreted within the historical Volve case-study scope.
+L02,Generalization,The selected Ridge Regression model did not outperform the persistence benchmark on the untouched final holdout.,The application presents both approaches and does not describe Ridge Regression as superior.
+L03,Model behaviour,Ridge Regression produced 12 negative forecasts during the 80-observation final holdout.,Negative predictions are preserved as model diagnostics and are not retrospectively clipped.
+L04,Production state,Zero-production and zero-on-stream observations can contain structurally unavailable production intensity and fluid-ratio indicators.,These values remain missing rather than being manually replaced with artificial values.
+L05,Zero-production forecasting,The frozen Ridge pipeline can produce finite but large positive forecasts when the current well state contains zero production.,Computational compatibility does not imply forecast reliability under zero-production conditions.
+L06,Operational interpretation,"Observed production trends, water cut, gas-oil ratio and operating-time changes do not establish engineering causation.",The application provides descriptive decision support rather than automated engineering advice.
+L07,Application scope,The application represents historical Volve data and is not connected to a live production system.,Displayed monitoring states are historical case-study observations rather than real-time field conditions.
+L08,Validation,Random train-test splitting was intentionally avoided because the forecasting problem is temporally ordered.,Reported results reflect temporal validation and should not be compared directly with results produced using shuffled evaluation designs.
